@@ -1,0 +1,17 @@
+package com.sathya.Springex;
+
+public class Doctor {
+
+	private int Did;
+	private String Dname;
+	public Doctor(int did, String dname) {
+		super();
+		Did = did;
+		Dname = dname;
+	}
+
+	public void doctor()
+	{
+		System.out.println("details of doctor");
+	}
+}

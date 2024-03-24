@@ -1,0 +1,18 @@
+package com.sathya.Springex;
+
+public class Patient {
+	
+	private Ddoctor ddoctor;
+	private Ppharmacy ppharmacy;
+	public Patient(Ddoctor ddoctor, Ppharmacy ppharmacy) {
+		super();
+		this.ddoctor = ddoctor;
+		this.ppharmacy = ppharmacy;
+	}
+	
+	public void details()
+	{
+		ddoctor.doctorInfo;
+		
+	}
+}

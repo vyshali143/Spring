@@ -1,0 +1,4 @@
+package com.sathya.Springex;
+
+public @interface Configuration {
+public void}

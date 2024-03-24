@@ -1,0 +1,15 @@
+package com.sathya.Springex;
+
+public class Ddoctor implements Doctor{
+
+
+
+@Override
+public void doctorInfo() {
+	System.out.println("Its working");
+}
+	public void Ddoctor()
+	{
+	System.out.println("Ddoctor:: object created");
+}
+}

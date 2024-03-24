@@ -1,0 +1,17 @@
+package com.sathya.Springex;
+
+public class Car implements Vehicle {
+	private String fuelType;
+	private int maxSpeed;
+	@Override
+	public void move() {
+	
+	
+	//generate getters and setters
+	
+	
+		
+	}
+	
+
+}

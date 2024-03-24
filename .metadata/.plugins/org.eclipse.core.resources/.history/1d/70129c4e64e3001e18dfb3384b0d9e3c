@@ -1,0 +1,6 @@
+package com.sathya.Springex;
+
+public interface Pharmacy {
+	
+public void pharseInfo();
+}

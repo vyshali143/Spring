@@ -1,0 +1,19 @@
+package com.sathya.Springex;
+
+public class Doctor {
+
+	private int DId;
+	private String DName;
+	//generate constructor here
+	public Doctor(int dId, String dName) {
+		super();
+		DId = dId;
+		DName = dName;
+	}
+	public void work(){
+		System.out.println("Details of doctor...");
+		System.out.println("Doctor Id="+DId);
+		System.out.println("Doctor Name="+DName);
+		
+	}
+}

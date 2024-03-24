@@ -1,0 +1,11 @@
+package com.sathya.Springex.SpringAutoWired;
+
+public class EmailService {
+
+	@component
+	public void message() 
+	{
+		System.out.println("your email is working");
+	}
+
+}

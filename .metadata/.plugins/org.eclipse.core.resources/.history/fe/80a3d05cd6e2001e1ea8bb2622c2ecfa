@@ -1,0 +1,13 @@
+package com.sathya.Springex;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class Javaconfig {
+
+	public GreetingImpl greet() {
+	
+	GreetingImpl greetingImpl=new GreetingImpl();
+	return  greetingImpl;
+}
+}

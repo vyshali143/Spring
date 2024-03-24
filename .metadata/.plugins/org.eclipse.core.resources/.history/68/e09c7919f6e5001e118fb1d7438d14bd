@@ -1,0 +1,8 @@
+package com.sathya.NonNull;
+
+public class NonNull {
+Employee employee=new Employee;
+emp.setEmpId(121);
+emp.setEmpName(null);
+emp.setEmpSalary(550000.08);
+}

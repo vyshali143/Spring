@@ -1,0 +1,12 @@
+package com.sathya.Lombok;
+
+@Setter
+	public class Employee {
+
+		private int EmpId;
+		private String EmpName;
+		private double EmpSalary;
+
+	}
+
+

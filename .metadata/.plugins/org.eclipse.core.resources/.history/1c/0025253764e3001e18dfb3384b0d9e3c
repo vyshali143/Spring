@@ -1,0 +1,24 @@
+package com.sathya.Springex;
+
+import org.springframework.context.annotation.Configuration;
+
+	@Configuration
+	public class JavaConfig {
+		@Bean
+		public Ddoctor ddoctor()
+		{
+			Ddoctor ddoctor=new Ddoctor();
+		}
+		@Bean
+		public Ppharmacy ppharmacy()
+		{
+			Ppharmacy ppharmacy=new Ppharmacy();
+		}
+		@Bean
+		public Patient patient()
+		{
+			patient.setDdoctor(ddoctor);
+			patient.setPpharmacy(ppharmacy);
+			return patient;
+		}
+}

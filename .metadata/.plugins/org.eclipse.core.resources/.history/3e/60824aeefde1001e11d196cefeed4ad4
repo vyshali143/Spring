@@ -1,0 +1,12 @@
+package com.sathya.Springex;
+
+public class JavaCourseService implements CourseService
+{
+
+	@Override
+	public void courseinfo() {
+		System.out.println("Java Course Service is Working");
+		
+	}
+
+}

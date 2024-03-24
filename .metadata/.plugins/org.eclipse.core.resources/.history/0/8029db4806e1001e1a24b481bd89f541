@@ -1,0 +1,17 @@
+package com.sathya.springex;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+public class AppTest
+{
+	public static void main (String args[])
+	{
+		//start the container
+		ApplicationContext context=new ClassPathXmlApplicationContext("spring-config.XML");
+		System.out.println("***********");
+		//get the object from container call your methods
+		GreetingImpl greetingImpl=context.getBean("greet",GreetingImpl.class);
+		greetingImpl.greet();
+	}
+}

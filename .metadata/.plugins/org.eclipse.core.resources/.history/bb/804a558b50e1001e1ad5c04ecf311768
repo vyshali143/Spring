@@ -1,0 +1,22 @@
+package com.sathya.stringex;
+
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	import org.springframework.context.ApplicationContext;
+    	import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+    	
+    			//start the container
+    			ApplicationContext context=new ClassPathXmlApplicationContext("spring-config.XML");
+    			System.out.println("***********");
+    			//get the object from container call your methods
+    			GreetingImpl greetingImpl=context.getBean("greet",GreetingImpl.class);
+    			greetingImpl.greet();
+    		}
+    	}
+
+    }
+}

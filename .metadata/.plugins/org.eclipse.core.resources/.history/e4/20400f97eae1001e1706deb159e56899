@@ -1,0 +1,11 @@
+package com.sathya.Springex;
+
+@Configuration
+public class Javaconfig {
+
+	public GreetingImpl greet() {
+	
+	GreetingImpl greetingImpl=new GreetingImpl();
+	return  greetingImpl;
+}
+}

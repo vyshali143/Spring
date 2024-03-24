@@ -1,0 +1,13 @@
+package com.sathya.Springex;
+
+public class Patient {
+
+	private String Name;
+	private int age;
+	public Patient(String name, int age) {
+		super();
+		this.Name = name;
+		this.age = age;
+	}
+	
+}

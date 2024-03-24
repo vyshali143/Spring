@@ -1,0 +1,5 @@
+package com.sathya.Springex.SpringAutoWired;
+
+public interface Student {
+
+}

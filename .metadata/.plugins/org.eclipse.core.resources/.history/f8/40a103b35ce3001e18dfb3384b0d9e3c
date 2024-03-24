@@ -1,0 +1,5 @@
+package com.sathya.Springex;
+
+public interface Hospital {
+
+}

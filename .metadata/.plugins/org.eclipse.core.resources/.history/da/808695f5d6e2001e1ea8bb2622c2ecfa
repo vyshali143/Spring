@@ -1,0 +1,30 @@
+package com.sathya.Springex;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class Javaconfig {
+
+	@Bean
+	public Bus bus() {
+		Bus bus=new Bus();
+		return bus;
+	}
+
+	@Bean
+	public Car car() {
+		Car car=new Car();
+		return car;
+	}
+
+	@Bean
+	public Traveller traveller() {
+		Traveller traveller=new Traveller();
+		
+		//we are setting email,java course to student
+		 traveller.setBus(bus());
+		 traveller.setCar(car());
+		 return traveller;
+	}
+	}

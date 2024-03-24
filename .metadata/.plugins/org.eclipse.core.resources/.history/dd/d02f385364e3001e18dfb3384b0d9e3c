@@ -1,0 +1,18 @@
+package com.sathya.Springex;
+
+public class Ppharmacy implements Pharmacy{
+
+	@Override
+	public void pharseInfo() 
+	{		
+			System.out.println("Its working");
+		}
+			public void Ddoctor()
+			{
+			System.out.println("Ppharmacy:: object created");
+		
+		
+		
+	}
+
+}

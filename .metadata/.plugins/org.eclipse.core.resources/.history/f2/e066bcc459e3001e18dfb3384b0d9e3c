@@ -1,0 +1,26 @@
+package com.sathya.Springex;
+
+import javax.naming.Context;
+import javax.naming.ContextNotEmptyException;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	//start the IOC Container
+    ApplicationContext context =new AnnotationConfigApplicationContext(JavaConfig.class);
+    //Get the beans call the method
+    Person person1 = new Context.getBean("person1",Person.class);
+        person1.personInfo();
+        
+    System.out.println("**************");
+    Person person2= new Context.getBean("person2",Person.class);
+    person2.personInfo();
+    
+    System.out.println("**************");
+    Person person3= new Person("person3",Person.class);
+    person3.personInfo();
+
+    System.out.println("**************");
+    }
+}

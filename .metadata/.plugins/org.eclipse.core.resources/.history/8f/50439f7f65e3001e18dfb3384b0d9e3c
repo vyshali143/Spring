@@ -1,0 +1,16 @@
+package com.sathya.Springex;
+
+public class Pharmacy {
+
+	private String PName;
+	private String PLocation;
+	public Pharmacy(String pname, String plocation) {
+		super();
+		Pname = pname;
+		Plocation = plocation;
+	}
+	public void pharmacy()
+	{
+		System.out.println("here the details of pharmacy....");
+	}
+}
